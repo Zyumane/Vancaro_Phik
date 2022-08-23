@@ -28,7 +28,7 @@ public class UpdatedMode : MonoBehaviour
 
         movementForce = new Vector3(x: Horizontal, y: 0f, z: Vertical);
 
-        if (Input.GetButtonDown("Fire1") && isGround())
+        if (Input.GetKey(KeyCode.Space) && isGround())
         {
             jupingAct = true;
         }
